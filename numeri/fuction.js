@@ -8,15 +8,17 @@ console.log(NumeroPC);
 // identifichiamo chi ha vinto 
 
 
-function UserParola (somma){
+function UserParola (userNumber){
 
     // sommiamo i numeri
 
     let numero = NumeroPC + userNumber;
+
      
     // Confrontiamo i numeri per capire chi ha vinto
 
     return numero % 2 === 0 ? "pari" : "dispari";
+
 
  }
 

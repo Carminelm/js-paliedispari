@@ -8,8 +8,9 @@ let userNumber = parseInt(prompt("scegli un numero da 1 a 5 "))
 
 
 //identifichiamo se il numero è pari o dispari 
+if (UserParola (userNumber)== parola ){
 
-if(UserParola = parola){
-
-    console.log("hai vinto ");
+console.log("hai vinto");
+} else{
+    console.log("hai perso");
 }
