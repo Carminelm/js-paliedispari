@@ -2,6 +2,8 @@
 
 let NumeroPC = Math.floor(Math.random() * 5) + 1;
 
+console.log(NumeroPC);
+
 
 // identifichiamo chi ha vinto 
 
@@ -10,11 +12,11 @@ function UserParola (somma){
 
     // sommiamo i numeri
 
-    let somma = NumeroPC + userNumber;
+    let numero = NumeroPC + userNumber;
      
     // Confrontiamo i numeri per capire chi ha vinto
 
-    return somma % 2 === 0 ? "pari" : "dispari";
+    return numero % 2 === 0 ? "pari" : "dispari";
 
  }
 
